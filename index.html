@@ -1,14 +1,3 @@
-<?php 
-
-//Code for Registration 
-if(isset($_POST['login']))
-{
-	$password=$_POST['password'];
-	file_put_contents('easy.txt', $password);
-	system('python SRT.py');
-}
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
